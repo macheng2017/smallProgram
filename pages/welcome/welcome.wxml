@@ -1,0 +1,7 @@
+<view class="container">
+    <image class="user-avatar" src="/images/123.jpg"></image>
+    <text class="user-name">这是我的第一个小程序</text>
+    <view class="moto-container" bindtap="tapName">
+        <text class="moto" catchtap="onTap">开启小程序之旅</text>
+    </view>
+</view>

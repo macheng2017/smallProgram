@@ -1,0 +1,23 @@
+<template name="postItem">
+    <view class="news">
+        <view class="user-avatar">
+            <image  src="{{ avatar}}"></image>
+            <text>{{ date}}</text>
+        </view>
+        <view class="news-content">
+            <text class="news-content-title">
+               {{ title}}
+            </text>
+            <image src="{{ imgSrc}}"></image>
+            <text>
+        {{ content}}
+            </text>
+        </view>
+        <view class="news-like">
+            <image src="../../images/icon/chat.png"></image>
+            <text>{{ reading}}</text>
+            <image src="../../images/icon/view.png"></image>
+            <text>{{ collection}}</text>
+        </view>
+    </view>
+</template>
